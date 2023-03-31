@@ -2,7 +2,7 @@ stats = "";
 img = "";
 objectDetector = "";
 function preload(){
-    img = loadImage("photo4(bananas).jpg");
+    img = loadImage("photo1.jpg");
 }
 function setup(){
     canvas = createCanvas(900,500);
