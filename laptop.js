@@ -11,7 +11,7 @@ function setup(){
     document.getElementById("status").innerHTML = "Status : Detecting Objects"
 }
 function draw(){
-    image(img,200,0,500,500);
+    image(img,75,0,750,500);
 }
 function modelloaded(){
     console.log("cocossd loaded");
