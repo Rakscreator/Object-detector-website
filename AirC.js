@@ -1,6 +1,7 @@
 stats = "";
 img = "";
 objectDetector = "";
+objects = ""
 function preload(){
     img = loadImage("photo2(the_ac).jpg");
 }
@@ -35,5 +36,6 @@ function gotResults(error,result){
     }
     else{
         console.log(result)
+        result = objects;
     }
 }

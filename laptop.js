@@ -12,6 +12,11 @@ function setup(){
 }
 function draw(){
     image(img,75,0,750,500);
+    if(stats != ""){
+        for (let i = 0; i < array.length; i++){
+            percent = floor(obe)
+        }
+    }
 }
 function modelloaded(){
     console.log("cocossd loaded");
