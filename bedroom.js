@@ -3,7 +3,7 @@ img = "";
 objectDetector = "";
 objects = ""
 function preload(){
-    img = loadImage("photo2(the_ac).jpg");
+    img = loadImage("Photo5(bed).jpg");
 }
 function setup(){
     canvas = createCanvas(900,500);
@@ -23,11 +23,11 @@ function draw(){
             percent = floor(objects[i].confidence * 100);
             document.getElementById("status").innerHTML = "Status : Object(s) Detected";
             fill("#FF0000");
-            text(objects[i].label+" "+percent+"%",objects[i].x+110,objects[i].y+40);
+            text(objects[i].label+" "+percent+"%",objects[i].x-100,objects[i].y-200);
             noFill();
             stroke("#FF0000");
             console.log("drawing object");
-            rect(objects[i].x+110,objects[i].y+40,objects[i].width,objects[i].height);
+            rect(objects[i].x-100,objects[i].y-200,objects[i].width,objects[i].height);
         }
     }
 }
